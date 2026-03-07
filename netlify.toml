@@ -1,0 +1,9 @@
+{
+  "name": "hr-id-card-generator",
+  "version": "1.0.0",
+  "description": "Professional HR ID Card Generator Portal",
+  "scripts": {
+    "build": "npm run copy-config && vite build",
+    "copy-config": "cp public/redirects.txt dist/_redirects && cp public/headers.txt dist/_headers"
+  }
+}

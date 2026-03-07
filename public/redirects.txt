@@ -1,0 +1,6 @@
+# Netlify/Vercel SPA Routing Configuration
+# This file ensures all routes are redirected to index.html
+# Fixes "Page Not Found" errors when refreshing pages
+
+# Redirect all paths to index.html (SPA fallback)
+/*    /index.html   200
